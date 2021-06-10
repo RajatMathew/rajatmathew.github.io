@@ -6,14 +6,20 @@
   box-sizing: border-box;
 }
 
+:root {
+  --background: #fff9e2;
+  --white: #ffffff;
+}
+
 @font-face {
   font-family: "Recoleta";
   src: url("../fonts/recoleta-regulardemo.otf");
 }
 
 body {
-  background-color: rgb(252, 255, 206);
+  background-color: var(--background);
   font-family: Recoleta;
+  max-height: 100vh;
 }
 
 .center {
@@ -32,21 +38,23 @@ p {
 }
 
 .small-text {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: grey;
 }
 
 .img-header {
-  width: 100px;
+  width: 120px;
 }
 
 #pls {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: grey;
   max-width: 200px;
   text-align: center;
   position: absolute;
-  bottom: -180px;
+  bottom: 40px;
+  left: 50vw;
+  transform: translateX(-50%);
 }
 
 .logo {
