@@ -32,6 +32,9 @@ body {
   transform: translateY(-50%);
 }
 
+.hey {
+  letter-spacing: -2px;
+}
 p {
   font-size: 3rem;
   display: block;
@@ -42,6 +45,7 @@ p {
   font-size: 1.1rem;
   color: grey;
   line-height: 2rem;
+  letter-spacing: -0.7px;
 }
 
 .img-header {
@@ -49,6 +53,7 @@ p {
 }
 
 #pls {
+  letter-spacing: 0px;
   font-size: 0.8rem;
   color: grey;
   max-width: 200px;
