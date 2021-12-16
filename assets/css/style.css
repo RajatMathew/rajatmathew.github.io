@@ -49,10 +49,10 @@ p {
 }
 
 .img-header {
-  width: 120px;
+  width: 160px;
 }
 
-#pls {
+.pls {
   letter-spacing: 0px;
   font-size: 0.8rem;
   color: grey;
@@ -73,4 +73,31 @@ p {
   top: 30px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.small-text {
+  font-size: 25px;
+  color: rgb(82, 82, 82);
+  padding: 0;
+  margin: 0;
+  line-height: 25px;
+}
+
+.desig {
+  font-size: 17px;
+  color: rgb(153, 153, 153);
+}
+
+.social .lni {
+  margin-top: 5px;
+  color: rgb(70, 70, 70);
+  font-size: 20px;
+}
+.lni {
+  margin: 0px 4px;
+}
+.social .lni:hover {
+  color: rgb(212, 115, 3);
+  transform: translateY(-3px);
+  transition: 0.3s;
 }
